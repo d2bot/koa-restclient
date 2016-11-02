@@ -1,0 +1,27 @@
+{
+  "name": "koa-restclient",
+  "version": "0.0.1",
+  "description": "koa rest client middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*_test.js"
+  },
+  "keywords": [
+    "koa",
+    "rest"
+  ],
+  "dependencies": {
+    "node-uuid": "~1.4.1",
+    "superagent": "^1.8.2"
+  },
+  "devDependencies": {
+    "koa": "^1.2.0",
+    "mocha": "~2.4.5",
+    "should": "~8.2.2",
+    "superagent": "~2.2.0",
+    "supertest": "^1.2.0",
+    "koa-route": "^2.4.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
